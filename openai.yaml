@@ -1,0 +1,13 @@
+name: geoskill-carbon-flux-estimation
+display_name: 碳通量估算
+description: |
+  基于光能利用率模型（CASA/VPM 简化）估算 GPP/NPP：GPP=PAR×FPAR×ε，ε 受温度与水分胁迫调节，NPP=GPP−自养呼吸，输出碳收支
+version: 0.1.0
+author: Mavis
+entrypoint: geoskill-carbon-flux-estimation.py
+runtime: python>=3.9
+tags:
+  - analysis
+  - gis
+  - remote-sensing
+  - vegetation
